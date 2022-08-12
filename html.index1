@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Layout</title>
+</head>
+<style>
+body{
+    background-color: rgb(3, 73, 73);
+}
+    img
+    {
+        float: left;
+    }
+    .linked
+    {
+        margin-left: 900px;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: plum;
+    }
+    .navbar
+    {
+        font-size: 20px;
+        float: left;
+        margin: 40px;
+        border: solid;
+        border-color: paleturquoise;
+        border-radius: 5px;
+    }
+    li{
+        list-style: none; 
+    }
+    a:hover{
+        color: palevioletred;
+    }
+    span{
+        display: block;
+        margin: auto;
+        width: 24%;
+        font-size: 50px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        box-sizing: border-box;
+    }
+</style>
+<body>
+    <img src="construction.png" alt="">
+    <div  class="linked">
+    <li class="navbar"><a href="index.html">First</a></li>
+    <li class="navbar"><a href="second.html">Second</a></li>
+    <li class="navbar"><a href="third.html">Third</a></li>
+    <li class="navbar"><a href="fourth.html">Fourth</a></li>
+</div>
+<br><br>
+<Span>This is my first website</Span>
+</body>
+</html>
